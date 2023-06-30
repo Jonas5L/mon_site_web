@@ -79,3 +79,54 @@
 }
 
 
+/* TEST */
+
+.rouge {
+  background:#C6210B !important;
+}
+
+.turquoise {
+  background:#00AFC1 !important;
+}
+
+.vert {
+  background:#8ED700 !important;
+}
+
+.orange {
+  background:#F19415 !important;
+}
+
+.jaune {
+  background:#F3F90B !important;
+}
+
+.mauve {
+  background:#8651FF !important;
+}
+
+.aubergine {
+  background:#ac085d !important;
+}
+
+#color-block-description {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.single-color-block-description {
+  display: flex;
+  align-items: center;
+}
+
+.single-color-block {
+  width: 30px;
+  height: 30px;
+}
+
+.single-color-block-description__copy {
+  margin-left: 12px;
+}
+
